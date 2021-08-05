@@ -91,6 +91,7 @@ int main() {
 	printf("\n");
 	
 	printf("---Tekan Enter---");
+	getch();
 		
 	return 0;
 }
