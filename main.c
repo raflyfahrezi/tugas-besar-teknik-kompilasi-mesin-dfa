@@ -77,9 +77,9 @@ int main() {
 	char str[] = "010111";
 	
 	if (isAccepted(str)) {
-		printf("ACCEPTED");
+		printf("DITERIMA");
 	} else {
-		printf("NOT ACCEPTED");
+		printf("TIDAK DITERIMA");
 	}
 		
 	return 0;
