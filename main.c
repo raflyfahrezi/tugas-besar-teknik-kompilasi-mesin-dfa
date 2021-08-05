@@ -74,13 +74,23 @@ int isAccepted(char str[]) {
 
 // main code
 int main() {
-	char str[] = "010111";
+	char str[20];
+	
+	printf("Input String : ");
+  	scanf("%s", str);
+ 
+	printf("\n");
 	
 	if (isAccepted(str)) {
-		printf("DITERIMA");
+		printf("INPUT DITERIMA");
 	} else {
-		printf("TIDAK DITERIMA");
+		printf("INPUT TIDAK DITERIMA");
 	}
+	
+	printf("\n");
+	printf("\n");
+	
+	printf("---Tekan Enter---");
 		
 	return 0;
 }
